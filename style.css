@@ -134,14 +134,18 @@ section .section-title {
 }
 
 /* form */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 #contatti{
     letter-spacing: 2px;
     background-image: url(images/profile.jpg);
-    background: #ffffff;
-    background-image: url(images/profile.jpg), linear-gradient(#f8e8b7, #fafafa);
+    background-size:100%;
+    display:block;
+    padding:0 !important;
+    margin:0 !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: 'Bree Serif', serif;
     }
   #contatti a{
     color: rgb(43, 34, 34);
@@ -176,6 +180,7 @@ section .section-title {
   
   @media (min-width: 992px) {
     #contatti{padding-bottom: 200px;}
+
   }
   
   
@@ -263,47 +268,30 @@ background: linear-gradient(183deg, rgba(238,254,147,1) 0%, rgba(238,218,66,0.03
 #star {
     margin-left: -5px !important;
     vertical-align: bottom !important;
-    opacity: 0.5
+    opacity: 0.5;
 }
 
 .more {
-    opacity: 0.5 !important
+    opacity: 0.5 !important;
 }
 
-.btn:hover {
-    color: rgb(250, 248, 162) !important
-}
 
 .vl {
-    margin: 8px !important;
+    margin: 8px ;
     width: 2px;
     border-right: 1px solid #aaaaaa;
     height: 25px
 }
 
 #plus {
-    opacity: 0.8
+    opacity: 0.8'
 }
 
 .card {
-    border-radius: 10px !important
+    border-radius: 10px !important;
 }
 
-a:hover {
-    background-color: rgb(250, 248, 162) !important
-}
-
-.btn-outlined:active {
-    color: #FFF;
-    border-color: #fff !important
-}
 
 img {
-    overflow: visible
-}
-
-.btn:focus,
-.btn:active {
-    outline: none !important;
-    box-shadow: none !important
+    overflow: visible;
 }
