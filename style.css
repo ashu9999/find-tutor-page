@@ -1,0 +1,309 @@
+body,html{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    
+   }
+   .navi{
+    background-color: #080727;
+
+   }
+   .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  
+
+   hr{
+       background-color: black;
+   }
+   .search-bgc{background: rgb(8,7,39);
+    background: linear-gradient(180deg, rgba(8,7,39,1) 0%, rgba(223,202,28,1) 59%, rgba(255,255,255,1) 100%);}
+   div.des{
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 14px;
+    width:250px;
+   }
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #2e4066;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+    
+    /*  Footer  */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    margin: 0;
+    padding: 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #080727;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+#footer {
+    display: block;
+    color: #fff;
+    background: #080727;
+    float: left;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family:proxima, sans-serif, sans-serif;
+    
+}
+#footer h2{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none ;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0.3px;
+
+}
+/* preview pdf */
+.iframe-container {    
+    padding-bottom: 60%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* form */
+#contatti{
+    letter-spacing: 2px;
+    background-image: url(images/profile.jpg);
+    background: #ffffff;
+    background-image: url(images/profile.jpg), linear-gradient(#f8e8b7, #fafafa);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+  #contatti a{
+    color: rgb(43, 34, 34);
+    text-decoration: none;
+  }
+  #contatti .dropdown-menu {         
+    max-height: 200px;
+    padding-left: 5px;
+    overflow-y: auto;
+  }
+  
+  .select2-container .select2-selection--single{
+    height:34px !important;
+}
+.select2-container--default .select2-selection--single{
+         border: 1px solid #ccc !important; 
+     border-radius: 0px !important; 
+}
+
+  @media (max-width: 575.98px) {
+    #contatti{padding-bottom: 800px;}
+   }
+  
+  
+  @media (min-width: 576px) {
+     #contatti{padding-bottom: 800px;}
+   }
+  
+  @media (min-width: 768px) {
+    #contatti{padding-bottom: 350px;}
+  }
+  
+  @media (min-width: 992px) {
+    #contatti{padding-bottom: 200px;}
+  }
+  
+  
+  #author a{
+    color: rgb(93, 84, 84);
+    text-decoration: none;
+      
+  }
+
+  /* The customcheck */
+.customcheck {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.customcheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.customcheck:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.customcheck input:checked ~ .checkmark {
+    background-color: #02cf32;
+    border-radius: 5px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.customcheck input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.customcheck .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* profile card */
+
+.pro-col{
+    background: rgb(238,254,147);
+background: linear-gradient(183deg, rgba(238,254,147,1) 0%, rgba(238,218,66,0.0380809655350246) 99%);
+}
+
+#star {
+    margin-left: -5px !important;
+    vertical-align: bottom !important;
+    opacity: 0.5
+}
+
+.more {
+    opacity: 0.5 !important
+}
+
+.btn:hover {
+    color: rgb(250, 248, 162) !important
+}
+
+.vl {
+    margin: 8px !important;
+    width: 2px;
+    border-right: 1px solid #aaaaaa;
+    height: 25px
+}
+
+#plus {
+    opacity: 0.8
+}
+
+.card {
+    border-radius: 10px !important
+}
+
+a:hover {
+    background-color: rgb(250, 248, 162) !important
+}
+
+.btn-outlined:active {
+    color: #FFF;
+    border-color: #fff !important
+}
+
+img {
+    overflow: visible
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important
+}

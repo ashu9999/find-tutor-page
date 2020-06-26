@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/ebdde96db9.js"></script>
+
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./images/icon.png" type="image/icon type">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <title>FriendsCampus</title>
+
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <div class="navi">
+            <nav class="navbar navbar-expand-lg navbar-dark py-4">
+                <a class="navbar-brand" href='#'><img src='./images/logo.jpg' width="277" height="100" alt="FriendsCampus Logo" title="FriendsCampus"/></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto topnav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Find Tutor
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <p class="nav-link dropdown-toggle " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                For Students
+                            </p>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Study Material</a>
+                                <a class="dropdown-item" href="#">FriendsCampus students app</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <p class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                For Tutor and Institute
+                            </p>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Create a profile</a>
+                                <a class="dropdown-item" href="#">Become a Tutor</a>
+                                <a class="dropdown-item" href="#">Join tutor group</a>
+                                <a class="dropdown-item" href="#">Friends Campus Pro App</a>
+                                <a class="dropdown-item" href="#">Get your classes app</a>
+                                <a class="dropdown-item" href="#">Get your classes website</a>
+                                
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <p class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                More
+                            </p>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Boards</a>
+                                <a class="dropdown-item" href="#">Classes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn text-dark" style="background-color: #DFCA1C;" type="button" href="#" data-toggle="modal" data-target="#myModal">Tutor join us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div
+                            class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Sign In</h4>
+                                <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <form>
+                                    <label class="sr-only" for="usrname">Username</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <i class="fa fa-user"></i>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+
+
+                                    <label class="sr-only" for="Password">Name</label>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon2">
+                                                <i class="fa fa-key"></i>
+                                            </span>
+                                        </div>
+                                        <input id="Password" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-dark text-dark" style="background-color: #DFCA1C;">Tutor join us</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </nav>
+        </div>
+       
+        <!-- search bar -->
+        <div class="d-flex justify-content-center py-5 mx-auto search-bgc ">
+                <div class="row mx-auto" >
+                  <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                    <select class="custom-select" id="inlineFormCustomSelect">
+                      <option selected>Class</option>
+                      <option value="1">5</option>
+                      <option value="2">8</option>
+                      <option value="3">10</option>
+                      <option value="3">12</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                    <select class="custom-select" id="inlineFormCustomSelect">
+                      <option selected>Subject</option>
+                      <option value="1">Science</option>
+                      <option value="2">History</option>
+                      <option value="3">English</option>
+                      <option value="3">Mathematics</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                    <select class="custom-select" id="inlineFormCustomSelect">
+                      <option selected>Board</option>
+                      <option value="1">CBSE</option>
+                      <option value="2">ISC</option>
+                      <option value="3">Maharastra</option>
+                      <option value="3">U.P.</option>
+                    </select>
+                  </div>
+                  <div class=" col-md-3 col-sm-6 col-xs-12 mx-auto des">
+                    <button type="submit" class="btn btn-dark btn-block">Search</button>
+                  </div>
+                </div>
+        </div>
+
+         
+    <!-- Page Content -->
+    <div class="container-fluid">
+            <div class="row" id="contatti">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-8 " >
+                      
+                      <div class="col-md-6">
+                        <h4 class="text-uppercase mt-3 font-weight-bold ">SELECT YOUR LOCATION</h4>
+                        <div class="col-lg-12">
+
+                            <label for="inpuFname">City</label>
+                            <form class="">
+                                <select class="form-control select2">
+                                   <option>Select</option> 
+                                   <option data-value="Mumbai">Mumbai</option>
+                                   <option data-value="Pune">Pune</option>
+                                   <option data-value="Nagpur">Nagpur</option>
+                                   <option data-value="Thane">Thane</option>
+                                   <option data-value="Pimpri-Chinchwad">Pimpri-Chinchwad</option>
+                                   <option data-value="Nashik">Nashik</option>
+                                   <option data-value="Kalyan-Dombivoption">Kalyan-Dombivoption</option>
+                                   <option data-value="Vasai-Virar City MC">Vasai-Virar City MC</option>
+                                   <option data-value="Aurangabad">Aurangabad</option>
+                                   <option data-value="Navi Mumbai">Navi Mumbai</option>
+                                   <option data-value="Solapur">Solapur</option>
+                                   <option data-value="Mira-Bhayandar">Mira-Bhayandar</option>
+                                   <option data-value="Bhiwandi-Nizampur MC">Bhiwandi-Nizampur MC</option>
+                                   <option data-value="Amravati">Amravati</option>
+                                   <option data-value="Nanded Waghala">Nanded Waghala</option>
+                                   <option data-value="Kolhapur">Kolhapur</option>
+                                   <option data-value="Ulhasnagar">Ulhasnagar</option>
+                                   <option data-value="Sangoption-Miraj-Kupwad">Sangoption-Miraj-Kupwad</option>
+                                   <option data-value="Malegaon">Malegaon</option>
+                                   <option data-value="Jalgaon">Jalgaon</option>
+                                   <option data-value="Akola">Akola</option>
+                                   <option data-value="Latur">Latur</option>
+                                   <option data-value="Dhule">Dhule</option>
+                                   <option data-value="Ahmednagar">Ahmednagar</option>
+                                   <option data-value="Chandrapur">Chandrapur</option>
+                                   <option data-value="Parbhani">Parbhani</option>
+                                   <option data-value="Ichalkaranji">Ichalkaranji</option>
+                                   <option data-value="Jalna">Jalna</option>
+                                   <option data-value="Ambarnath">Ambarnath</option>
+                                   <option data-value="Bhusawal">Bhusawal</option>
+                                   <option data-value="Panvel">Panvel</option>
+                                   <option data-value="Ratnagiri">Ratnagiri</option>
+                                   <option data-value="Beed">Beed</option>
+                                   <option data-value="Gondia">Gondia</option>
+                                   <option data-value="Satara">Satara</option>
+                                   <option data-value="Barshi">Barshi</option>
+                                   <option data-value="Yavatmal">Yavatmal</option>
+                                   <option data-value="Achalpur">Achalpur</option>
+                                   <option data-value="Osmanabad">Osmanabad</option>
+                                   <option data-value="Nandurbar">Nandurbar</option>
+                                   <option data-value="Wardha">Wardha</option>
+                                   <option data-value="Udgir">Udgir</option>
+                                   <option data-value="Hinganghat">Hinganghat</option> 
+                                </select>
+                            </form>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                              <label for="inpuFname">Location</label>
+                              <input type="text" class="form-control mt-2" placeholder="Area name" required>
+                            </div>
+                        </div>
+                        
+                      </div>
+                      
+                      <div class="col-md-6">
+                        <div class="">
+                            <h4 class="text-uppercase mt-3 font-weight-bold ">Class And Board</h4>
+                              <div class="col-lg-12">
+                                <label for="inpuFname">Class</label>
+                                <select class="custom-select" id="inlineFormCustomSelect">
+                                  <option selected>---</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value="12">12</option>
+                                </select>
+                              </div>
+                              <div class="col-lg-12">
+                                <label for="inpuFname">Subject</label>
+                                <select class="custom-select" id="inlineFormCustomSelect">
+                                  <option selected>---</option>
+                                  <option value="1">Science</option>
+                                  <option value="2">History</option>
+                                  <option value="3">English</option>
+                                  <option value="3">Mathematics</option>
+                                </select>
+                              </div>
+                              <div class="col-lg-12">
+                                <label for="inpuFname">Board  </label>
+                                <select class="custom-select" id="inlineFormCustomSelect">
+                                  <option selected>---</option>
+                                  <option value="1">CBSE</option>
+                                  <option value="2">ISC</option>
+                                  <option value="3">Maharastra</option>
+                                  <option value="3">U.P.</option>
+                                </select>
+                              </div>
+                            
+                        </div>
+                      
+                      <h4 class="text-uppercase mt-3 font-weight-bold ">Tuition Type</h4>
+                      <div class="col-ld-12">
+                        <label class="customcheck">Online
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="customcheck">At My Home
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="customcheck">At Tutors Place
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="customcheck">Institute
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                      </div>
+                      
+                      <h4 class="text-uppercase mt-3 font-weight-bold ">Tutor Preference</h4>    
+                      <div class="col-ld-12">
+                        <label class="customcheck">Male
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="customcheck">Female
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="customcheck">Other
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                      </div>
+
+                      <h4 class="text-uppercase mt-3 font-weight-bold ">Contact Details</h4>    
+                      <div class="col-lg-12">
+                        <form action="">
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <input type="text" class="form-control mt-2" placeholder="First Name" required>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <input type="text" class="form-control mt-2" placeholder="Last Name" required>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <input type="email" class="form-control mt-2" placeholder="Email" required>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <input type="tel" class="form-control mt-2" placeholder="Mobile number" required>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <button class="btn btn-dark btn-lg btn-block " type="submit">Submit</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      
+                    </div> 
+                    </div>
+                </div>    
+                            
+            </div>
+        <!--/row-->
+        <b><hr class="my-8"></b>
+    </div>
+    
+    <!-- tutors by locality filter -->
+    <div class="container">
+        <h2 class="text-center text-bold">Tutors and Institutes By Locality</h2>
+        <div class="row">
+            <div class="row mx-auto" >
+              <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                <select class="custom-select" id="inlineFormCustomSelect">
+                  <option selected>Class</option>
+                  <option value="1">5</option>
+                  <option value="2">8</option>
+                  <option value="3">10</option>
+                  <option value="3">12</option>
+                </select>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                <select class="custom-select" id="inlineFormCustomSelect">
+                  <option selected>Subject</option>
+                  <option value="1">Science</option>
+                  <option value="2">History</option>
+                  <option value="3">English</option>
+                  <option value="3">Mathematics</option>
+                </select>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                <select class="custom-select" id="inlineFormCustomSelect">
+                  <option selected>Board</option>
+                  <option value="1">CBSE</option>
+                  <option value="2">ISC</option>
+                  <option value="3">Maharastra</option>
+                  <option value="3">U.P.</option>
+                </select>
+              </div>
+              <div class=" col-md-3 col-sm-6 col-xs-12 mx-auto des">
+                            <form class="">
+                                <select class="form-control custom-select">
+                                   <option>City</option> 
+                                   <option data-value="Mumbai">Mumbai</option>
+                                   <option data-value="Pune">Pune</option>
+                                   <option data-value="Nagpur">Nagpur</option>
+                                   <option data-value="Thane">Thane</option>
+                                   <option data-value="Pimpri-Chinchwad">Pimpri-Chinchwad</option>
+                                   <option data-value="Nashik">Nashik</option>
+                                   <option data-value="Kalyan-Dombivoption">Kalyan-Dombivoption</option>
+                                   <option data-value="Vasai-Virar City MC">Vasai-Virar City MC</option>
+                                   <option data-value="Aurangabad">Aurangabad</option>
+                                   <option data-value="Navi Mumbai">Navi Mumbai</option>
+                                   <option data-value="Solapur">Solapur</option>
+                                   <option data-value="Mira-Bhayandar">Mira-Bhayandar</option>
+                                   <option data-value="Bhiwandi-Nizampur MC">Bhiwandi-Nizampur MC</option>
+                                   <option data-value="Amravati">Amravati</option>
+                                   <option data-value="Nanded Waghala">Nanded Waghala</option>
+                                   <option data-value="Kolhapur">Kolhapur</option>
+                                   <option data-value="Ulhasnagar">Ulhasnagar</option>
+                                   <option data-value="Sangoption-Miraj-Kupwad">Sangoption-Miraj-Kupwad</option>
+                                   <option data-value="Malegaon">Malegaon</option>
+                                   <option data-value="Jalgaon">Jalgaon</option>
+                                   <option data-value="Akola">Akola</option>
+                                   <option data-value="Latur">Latur</option>
+                                   <option data-value="Dhule">Dhule</option>
+                                   <option data-value="Ahmednagar">Ahmednagar</option>
+                                   <option data-value="Chandrapur">Chandrapur</option>
+                                   <option data-value="Parbhani">Parbhani</option>
+                                   <option data-value="Ichalkaranji">Ichalkaranji</option>
+                                   <option data-value="Jalna">Jalna</option>
+                                   <option data-value="Ambarnath">Ambarnath</option>
+                                   <option data-value="Bhusawal">Bhusawal</option>
+                                   <option data-value="Panvel">Panvel</option>
+                                   <option data-value="Ratnagiri">Ratnagiri</option>
+                                   <option data-value="Beed">Beed</option>
+                                   <option data-value="Gondia">Gondia</option>
+                                   <option data-value="Satara">Satara</option>
+                                   <option data-value="Barshi">Barshi</option>
+                                   <option data-value="Yavatmal">Yavatmal</option>
+                                   <option data-value="Achalpur">Achalpur</option>
+                                   <option data-value="Osmanabad">Osmanabad</option>
+                                   <option data-value="Nandurbar">Nandurbar</option>
+                                   <option data-value="Wardha">Wardha</option>
+                                   <option data-value="Udgir">Udgir</option>
+                                   <option data-value="Hinganghat">Hinganghat</option> 
+                                </select>
+                            </form>
+              </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <!-- profile of teachers -->
+    <div class="container mb-5">
+        <div class="row justify-content-between">
+            <div class="col-md-5 card mt-5 border-5 pt-2 pb-0 px-3 pro-col" >
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 ">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150" height="150"> </li>
+                                </ul>
+                            <h4 class="card-title "><b>Minhaj Shaikh</b></h4>
+                        </div>
+                        <div class="col">
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    Minhaj Tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee.
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>City : </b>MUMBAI
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Location : </b>Matunga Labour Camp
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Subject: </b>English, Hindi, Marathi, Maths, Science
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Years of Experience: </b>8
+                                </p>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-white px-0 ">
+                    <div class="row">
+                        <div class=" col-md-auto "> 
+                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                            <small>View Profile</small></a> <span class="vl ml-3"></span> 
+                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                            <small>Book free class</small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 card mt-5 border-5 pt-2 pb-0 px-3 pro-col">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 ">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150" height="150"> </li>
+                                </ul>
+                            <h4 class="card-title "><b>Minhaj Shaikh</b></h4>
+                        </div>
+                        <div class="col">
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    Minhaj Tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee.
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>City : </b>MUMBAI
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Location : </b>Matunga Labour Camp
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Subject: </b>English, Hindi, Marathi, Maths, Science
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Years of Experience: </b>8
+                                </p>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-white px-0 ">
+                    <div class="row">
+                        <div class=" col-md-auto "> 
+                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                            <small>View Profile</small></a> <span class="vl ml-3"></span> 
+                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                            <small>Book free class</small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 card mt-5 border-5 pt-2 pb-0 px-3 pro-col">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 ">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150" height="150"> </li>
+                                </ul>
+                            <h4 class="card-title "><b>Minhaj Shaikh</b></h4>
+                        </div>
+                        <div class="col">
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    Minhaj Tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee.
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>City : </b>MUMBAI
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Location : </b>Matunga Labour Camp
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Subject: </b>English, Hindi, Marathi, Maths, Science
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Years of Experience: </b>8
+                                </p>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-white px-0 ">
+                    <div class="row">
+                        <div class=" col-md-auto "> 
+                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                            <small>View Profile</small></a> <span class="vl ml-3"></span> 
+                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                            <small>Book free class</small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 card mt-5 border-5 pt-2 pb-0 px-3 pro-col">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 ">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150" height="150"> </li>
+                                </ul>
+                            <h4 class="card-title "><b>Minhaj Shaikh</b></h4>
+                        </div>
+                        <div class="col">
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    Minhaj Tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee.
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>City : </b>MUMBAI
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Location : </b>Matunga Labour Camp
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Subject: </b>English, Hindi, Marathi, Maths, Science
+                                </p>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                    <b>Years of Experience: </b>8
+                                </p>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-white px-0 ">
+                    <div class="row">
+                        <div class=" col-md-auto "> 
+                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                            <small>View Profile</small></a> <span class="vl ml-3"></span> 
+                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                            <small>Book free class</small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+
+    <!-- Footer -->
+	<section id="footer">
+		<div class="p-4 text-white">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4 ">
+					<h2 class="mb-4">FriendsCampus</h2>
+					<p >FriendsCampus is an Education Platform where students come to find solutions to their doubts, 
+                        find a personal tutor or even search for Institutes who can help them perform better in exams.
+                    </p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h2 class="mb-4" >For Tutors & Institutes</h2>
+					<ul class="list-unstyled quick-links">
+						<li><a href="#">Create Free Profile</a></li>
+						<li><a href="#">Become a Partner</a></li>
+						<li><a href="#">Download pro APP</a></li>
+                    </ul>
+                    
+					<h2 class="mb-4" >Link</h2>
+					<ul class="list-unstyled quick-links">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of Service</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h2 class="mb-4" >Contact</h2>
+					<ul class="list-unstyled quick-links">
+                        <p class=""><b>Address</b></br>
+                        503D, Fortune Square, Bldg. No 11, Near Trade Center US Embasy, BKC, Bandra(E), Mumbai: 400051</p>    
+                    </ul>
+                    <p class="mb-4"><b>Phone</b></br>
+                    <a class="" style="color:rgb(233, 215, 29)" href="#">+91 7977 0595 11</a></p>
+                    </ul>
+                    <p class="mb-4"><b>Email</b></br>
+                    <a class="" style="color:rgb(233, 215, 29)" href="#">team@friendscampus.com</a></p>
+                    </ul>
+				</div>
+			</div>				
+        </div>
+        
+    </section>
+    
+    <div class="footer" >
+        <div class="row" >
+            <div class="col-md-12 text-right" >
+            <div style="color: rgb(0, 0, 0); background-color:rgb(233, 215, 29); font-size: 12px; padding:30px;" >© 2020 Copyright:
+            <a style="color: black;" href="#"><b>FriendsCampus</b></a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script>
+        $(function(){
+
+        $('#show').on('click',function(){        
+            $('.card-reveal').slideToggle('slow');
+        });
+
+        $('.card-reveal .close').on('click',function(){
+            $('.card-reveal').slideToggle('slow');
+        });
+        });
+
+        (function(a){a.createModal=function(b){defaults={title:"",message:"Your Message Goes Here!",closeButton:true,scrollable:false};var b=a.extend({},defaults,b);var c=(b.scrollable===true)?'style="max-height: 420px;overflow-y: auto;"':"";html='<div class="modal fade" id="myModal">';html+='<div class="modal-dialog">';html+='<div class="modal-content">';html+='<div class="modal-header">';html+='<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>';if(b.title.length>0){html+='<h4 class="modal-title">'+b.title+"</h4>"}html+="</div>";html+='<div class="modal-body" '+c+">";html+=b.message;html+="</div>";html+='<div class="modal-footer">';if(b.closeButton===true){html+='<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>'}html+="</div>";html+="</div>";html+="</div>";html+="</div>";a("body").prepend(html);a("#myModal").modal().on("hidden.bs.modal",function(){a(this).remove()})}})(jQuery);
+
+
+        $(function(){    
+            $('.view-pdf').on('click',function(){
+                var pdf_link = $(this).attr('href');
+                var iframe = '<div class="iframe-container"><iframe src="'+pdf_link+'"></iframe></div>'
+                $.createModal({
+                title:'My Title',
+                message: iframe,
+                closeButton:true,
+                scrollable:false
+                });
+                return false;        
+            });    
+        })
+
+        $('.select2').select2();
+
+    </script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
