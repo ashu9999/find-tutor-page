@@ -26,8 +26,9 @@ body,html{
    hr{
        background-color: black;
    }
-   .search-bgc{background: rgb(8,7,39);
-    background: linear-gradient(180deg, rgba(8,7,39,1) 0%, rgba(223,202,28,1) 59%, rgba(255,255,255,1) 100%);}
+   .search-bgc{
+    background-color: #080727;
+   }
    div.des{
     border-radius: 4px;
     padding: 10px 10px;
@@ -137,22 +138,22 @@ section .section-title {
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 #contatti{
     letter-spacing: 2px;
-    background-image: url(images/profile.jpg);
-    background-size:100%;
-    display:block;
-    padding:0 !important;
-    margin:0 !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     font-family: 'Bree Serif', serif;
+    margin-top: 40px;
     }
   #contatti a{
     color: rgb(43, 34, 34);
     text-decoration: none;
   }
+  #contatti input{
+    border: 2px solid #ffca7a;
+  }
+
+  #contatti select{
+    border: 2px solid #ffca7a;
+  }
   #contatti .dropdown-menu {         
-    max-height: 200px;
+    max-height: 160px;
     padding-left: 5px;
     overflow-y: auto;
   }
@@ -165,25 +166,6 @@ section .section-title {
      border-radius: 0px !important; 
 }
 
-  @media (max-width: 575.98px) {
-    #contatti{padding-bottom: 800px;}
-   }
-  
-  
-  @media (min-width: 576px) {
-     #contatti{padding-bottom: 800px;}
-   }
-  
-  @media (min-width: 768px) {
-    #contatti{padding-bottom: 350px;}
-  }
-  
-  @media (min-width: 992px) {
-    #contatti{padding-bottom: 200px;}
-
-  }
-  
-  
   #author a{
     color: rgb(93, 84, 84);
     text-decoration: none;
@@ -224,7 +206,7 @@ section .section-title {
 
 /* On mouse-over, add a grey background color */
 .customcheck:hover input ~ .checkmark {
-    background-color: #ccc;
+    background-color: rgba(225, 228, 44, 0.938);
 }
 
 /* When the checkbox is checked, add a blue background */

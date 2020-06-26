@@ -172,17 +172,16 @@
 
          
     <!-- Page Content -->
-    <div class="container-fluid" id="contatti">
-            <div class="col-lg-12 ">
-                <div class="row justify-content-center"  >
-                      
-                      <div class="col-md-8 ">
-                        <h4 class="text-uppercase mt-3 font-weight-bold ">SELECT YOUR LOCATION</h4>
-                        <div class="col-8">
-
-                            <label for="inpuFname">City</label>
+    <div class="container" id="contatti">
+            <div class="row">
+                <div class="col-12 text-center">  
+                    <div class="">
+                        <h4 class="text-uppercase mt-3 font-weight-bold text-left">SELECT YOUR LOCATION</h4>
+                        <div class="text-left">
+                            <label for="city">City</label>
                             <form class="">
-                                <select class="form-control select2">
+                                <!-- city list -->
+                                <select class="form-control select2 mb-3">
                                    <option>Select</option> 
                                    <option data-value="Mumbai">Mumbai</option>
                                    <option data-value="Pune">Pune</option>
@@ -230,8 +229,8 @@
                                 </select>
                             </form>
                         </div>
-                        <div class="col-8">
-                            <div class="form-group">
+                        <div class="">
+                            <div class="form-group text-left">
                               <label for="inpuFname">Location</label>
                               <input type="text" class="form-control mt-2" placeholder="Area name" required>
                             </div>
@@ -239,10 +238,10 @@
                         
                       </div>
                       
-                      <div class="col-md-8">
+                      <div class="">
                         <div class="">
-                            <h4 class="text-uppercase mt-3 font-weight-bold ">Class And Board</h4>
-                              <div class="col-8">
+                            <h4 class="text-uppercase mt-3 font-weight-bold text-left">Class And Board</h4>
+                              <div class="text-left mb-3">
                                 <label for="inpuFname">Class</label>
                                 <select class="custom-select" id="inlineFormCustomSelect">
                                   <option selected>---</option>
@@ -256,7 +255,7 @@
                                   <option value="12">12</option>
                                 </select>
                               </div>
-                              <div class="col-8">
+                              <div class="text-left mb-3">
                                 <label for="inpuFname">Subject</label>
                                 <select class="custom-select" id="inlineFormCustomSelect">
                                   <option selected>---</option>
@@ -266,7 +265,7 @@
                                   <option value="3">Mathematics</option>
                                 </select>
                               </div>
-                              <div class="col-8">
+                              <div class="text-left mb-3">
                                 <label for="inpuFname">Board  </label>
                                 <select class="custom-select" id="inlineFormCustomSelect">
                                   <option selected>---</option>
@@ -279,74 +278,79 @@
                             
                         </div>
                       
-                      <h4 class="text-uppercase mt-3 font-weight-bold ">Tuition Type</h4>
-                      <div class="col-lg-12">
-                        <label class="customcheck">Online
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label>
-                          <label class="customcheck">At My Home
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label>
-                          <label class="customcheck">At Tutors Place
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label>
-                          <label class="customcheck">Institute
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label>
-                      </div>
-                      
-                      <h4 class="text-uppercase mt-3 font-weight-bold ">Tutor Preference</h4>    
-                      <div class="col-lg-12">
-                        <label class="customcheck">Male
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label>
-                          <label class="customcheck">Female
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label>
-                          <label class="customcheck">Other
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label>
-                      </div>
+                        <div class="row">
+                            <div class="col text-left">
+                                <h4 class="text-uppercase mt-3 font-weight-bold ">Tuition Type</h4>
+                                <div class="">
+                                    <label class="customcheck">Online
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                    <label class="customcheck">At My Home
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                    <label class="customcheck">At Tutors Place
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                    <label class="customcheck">Institute
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="col text-left">
+                                <h4 class="text-uppercase mt-3 font-weight-bold ">Tutor Preference</h4>    
+                                <div class="">
+                                    <label class="customcheck">Male
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                    <label class="customcheck">Female
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                    <label class="customcheck">Other
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
 
-                      <h4 class="text-uppercase mt-3 font-weight-bold ">Contact Details</h4>    
-                      <div class="col-8">
-                        <form action="">
-                          <div class="row">
-                            <div class="col-lg-6">
-                              <div class="form-group">
-                                <input type="text" class="form-control mt-2" placeholder="First Name" required>
-                              </div>
-                            </div>
-                            <div class="col-lg-6">
-                              <div class="form-group">
-                                <input type="text" class="form-control mt-2" placeholder="Last Name" required>
-                              </div>
-                            </div>
-                            <div class="col-lg-6">
-                              <div class="form-group">
-                                <input type="email" class="form-control mt-2" placeholder="Email" required>
-                              </div>
-                            </div>
-                            <div class="col-lg-6">
-                              <div class="form-group">
-                                <input type="tel" class="form-control mt-2" placeholder="Mobile number" required>
-                              </div>
-                            </div>
-                            <div class="col-4">
-                              <button class="btn btn-dark btn-lg btn-block " type="submit">Submit</button>
-                            </div>
-                          </div>
-                        </form>
-                      </div>
-                      
-                    </div> 
+                        <h4 class="text-uppercase mt-3 font-weight-bold text-left">Contact Details</h4>    
+                        <div class="">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control mt-2" placeholder="First Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control mt-2" placeholder="Last Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control mt-2" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="tel" class="form-control mt-2" placeholder="Mobile number" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button class="btn btn-dark btn-lg d-inline-flex justify-content-center" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                        </div> 
                     </div>
                 </div>    
                             
@@ -361,6 +365,7 @@
         <div class="row">
             <div class="row mx-auto" >
               <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                  <!-- class list -->
                 <select class="custom-select" id="inlineFormCustomSelect">
                   <option selected>Class</option>
                   <option value="1">5</option>
@@ -370,6 +375,7 @@
                 </select>
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                <!-- subjects -->
                 <select class="custom-select" id="inlineFormCustomSelect">
                   <option selected>Subject</option>
                   <option value="1">Science</option>
@@ -379,16 +385,17 @@
                 </select>
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                   <!-- boards list -->
                 <select class="custom-select" id="inlineFormCustomSelect">
                   <option selected>Board</option>
                   <option value="1">CBSE</option>
                   <option value="2">ISC</option>
                   <option value="3">Maharastra</option>
-                  <option value="3">U.P.</option>
                 </select>
               </div>
               <div class=" col-md-3 col-sm-6 col-xs-12 mx-auto des">
                             <form class="">
+                                <!-- city list -->
                                 <select class="form-control custom-select">
                                    <option>City</option> 
                                    <option data-value="Mumbai">Mumbai</option>
@@ -692,6 +699,7 @@
         
     </section>
     
+    <!-- end credit footer -->
     <div class="footer" >
         <div class="row" >
             <div class="col-md-12 text-right" >
@@ -702,7 +710,7 @@
     </div>
     
     
-    
+    <!-- javascript functions -->
     <script>
         $(function(){
 
