@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body,html{
     overflow-x: hidden;
@@ -11,7 +7,7 @@ body,html{
     margin: 0;
     padding: 0;
     background-size: cover;
-    font-family: "Roboto", Sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     
    }
@@ -73,6 +69,16 @@ body,html{
     color:white;
     text-decoration:none;
     }
+    #search-button{
+        background-color: #DFCA1C;
+        border: 2px solid  #DFCA1C;
+        border-radius: 2px;
+    }
+
+    #search-button:hover{
+        background-color: #080727;
+        color: white;
+    }
     
     /*  Footer  */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -97,9 +103,7 @@ section .section-title {
     font-size: 14px;
     padding-top: 30px;
     padding-right: 60px;
-    padding-left: 60px;
-    font-family:proxima, sans-serif, sans-serif;
-    
+    padding-left: 60px;    
 }
 #footer h2{
     color: #FFFFFF;
@@ -143,7 +147,6 @@ section .section-title {
 /* form */
 #contatti{
     letter-spacing: 2px;
-    font-family: 'Bree Serif', serif;
     margin-top: 40px;
     }
   #contatti a{
@@ -176,6 +179,19 @@ section .section-title {
     text-decoration: none;
       
   }
+  #sub-button{
+    background-color: #DFCA1C;
+    border: 2px solid  #DFCA1C;
+    border-radius: 2px;
+    color: black;
+    font-size: 24px;
+}
+
+#sub-button:hover{
+    background-color: white;
+    border: 2px solid  #354980;
+    color: black;
+}
 
   /* The customcheck */
 .customcheck {
@@ -211,7 +227,7 @@ section .section-title {
 
 /* On mouse-over, add a grey background color */
 .customcheck:hover input ~ .checkmark {
-    background-color: rgba(225, 228, 44, 0.938);
+    background-color: #DFCA1C);
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -249,8 +265,6 @@ section .section-title {
    
 
 #tutloc{
-    font-family: 'Bungee', cursive;
-    font-family: 'Chelsea Market', cursive;     
 } 
 
 #tutloc select{
@@ -263,7 +277,7 @@ section .section-title {
     font-weight: 400;
 }
 #carfont{
-    font-family: 'Crete Round', serif;
+    
 }
 .pro-col{
     background: rgb(4,60,154);

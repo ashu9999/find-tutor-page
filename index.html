@@ -39,6 +39,11 @@
                             </a>
                         </li>
                         <li class="nav-item active">
+                            <a class="nav-link" href="#">Join Study Group
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
                             <a class="nav-link" href="#">Find Tutor
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -76,7 +81,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn text-dark" style="background-color: #DFCA1C;" type="button" href="#" data-toggle="modal" data-target="#myModal">Tutor join us</a>
+                            <a class="nav-link btn text-dark" style="background-color: #DFCA1C;" type="button" href="#" data-toggle="modal" data-target="#myModal">Sign in</a>
                         </li>
                     </ul>
                 </div>
@@ -165,7 +170,7 @@
                     </select>
                   </div>
                   <div class=" col-md-3 col-sm-6 col-xs-12 mx-auto des">
-                    <button type="submit" class="btn btn-dark btn-block">Search</button>
+                    <button type="submit" class="btn btn-block" id="search-button">Search</button>
                   </div>
                 </div>
         </div>
@@ -176,7 +181,7 @@
             <div class="row">
                 <div class="col-md-8 text-center">  
                     <div class="">
-                        <h4 class="text-uppercase mt-3 font-weight-bold text-left">SELECT YOUR LOCATION</h4>
+                        <h4 class="text-uppercase mt-3 text-left">SELECT YOUR LOCATION</h4>
                         <div class="text-left">
                             <label for="city">City</label>
                             <form class="">
@@ -239,8 +244,8 @@
                       </div>
                       
                       <div class="">
-                        <div class="col-md-8">
-                            <h4 class="text-uppercase mt-3 font-weight-bold text-left">Class And Board</h4>
+                        <div class="">
+                            <h4 class="text-uppercase mt-3 text-left">Class And Board</h4>
                               <div class="text-left mb-3">
                                 <label for="inpuFname">Class</label>
                                 <select class="custom-select" id="inlineFormCustomSelect">
@@ -280,7 +285,7 @@
                       
                         <div class="row">
                             <div class="col text-left">
-                                <h4 class="text-uppercase mt-3 font-weight-bold ">Tuition Type</h4>
+                                <h4 class="text-uppercase mt-3 ">Tuition Type</h4>
                                 <div class="">
                                     <label class="customcheck">Online
                                     <input type="checkbox">
@@ -302,7 +307,7 @@
                             </div>
                             
                             <div class="col text-left">
-                                <h4 class="text-uppercase mt-3 font-weight-bold "> Prefer Tutor</h4>    
+                                <h4 class="text-uppercase mt-3"> Prefer Tutor</h4>    
                                 <div class="">
                                     <label class="customcheck">Male
                                     <input type="checkbox">
@@ -320,7 +325,7 @@
                             </div>
                         </div>
 
-                        <h4 class="text-uppercase mt-3 font-weight-bold text-left">Contact Details</h4>    
+                        <h4 class="text-uppercase mt-3 text-left">Contact Details</h4>    
                         <div class="">
                             <form action="">
                                 <div class="row">
@@ -346,7 +351,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <button class="btn btn-dark btn-lg d-inline-flex justify-content-center" type="submit">Submit</button>
+                                    <button class="btn btn-dark btn-lg d-inline-flex justify-content-center" type="submit" id="sub-button">Submit</button>
                                 </div>
                             </form>
                         </div>
@@ -502,9 +507,9 @@
                         </div>
                         <div class="col-md-2 pt-3">
                             <div class=""> 
-                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2"  id="sub-button"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
                                 <small>View Profile</small></a> 
-                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2"  id="sub-button"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
                                 <small>Book free class</small></a>
                             </div>
                         </div>
@@ -558,9 +563,9 @@
                         </div>
                         <div class="col-md-2 pt-3">
                             <div class=""> 
-                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2"  id="sub-button"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
                                 <small>View Profile</small></a> 
-                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2"  id="sub-button"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
                                 <small>Book free class</small></a>
                             </div>
                         </div>
@@ -614,9 +619,9 @@
                         </div>
                         <div class="col-md-2 pt-3">
                             <div class=""> 
-                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2"  id="sub-button"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
                                 <small>View Profile</small></a> 
-                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2"  id="sub-button"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
                                 <small>Book free class</small></a>
                             </div>
                         </div>
@@ -670,9 +675,9 @@
                         </div>
                         <div class="col-md-2 pt-3">
                             <div class=""> 
-                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2"  id="sub-button"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
                                 <small>View Profile</small></a> 
-                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2"  id="sub-button"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
                                 <small>Book free class</small></a>
                             </div>
                         </div>
