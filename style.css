@@ -25,7 +25,12 @@ body,html{
   }
   
   .fs{
-      font-size: 18px;
+      font-size: 16px;
+  }
+  .fss{
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: lighter;
   }
    hr{
        background-color: black;
