@@ -273,6 +273,7 @@ section .section-title {
   }
 
 #protab{
+    font-family: "Poppins", Sans-serif;
     font-size: 40px;
     font-weight: 400;
 }
