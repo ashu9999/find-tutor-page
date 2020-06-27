@@ -24,7 +24,9 @@ body,html{
       pointer-events: none;
   }
   
-
+  .fs{
+      font-size: 18px;
+  }
    hr{
        background-color: black;
    }
@@ -180,15 +182,17 @@ section .section-title {
       
   }
   #sub-button{
-    background-color: #DFCA1C;
+    background-color: #ffffff;
     border: 2px solid  #DFCA1C;
     border-radius: 2px;
     color: black;
-    font-size: 24px;
+    font-size: 16px;
+    white-space: normal;
+    text-align: center;
 }
 
 #sub-button:hover{
-    background-color: white;
+    background-color: rgb(246, 239, 200);
     border: 2px solid  #354980;
     color: black;
 }
@@ -200,7 +204,7 @@ section .section-title {
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 18px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -265,7 +269,6 @@ section .section-title {
 #hed{
     color: #212529;
     font-family: "Poppins", Sans-serif;
-    font-size: 40px;
     font-weight: bold;
 }
 #tutloc select{
@@ -273,7 +276,6 @@ section .section-title {
   }
 
 #protab{
-    font-size: 40px;
     font-weight: 400;
 }
 
