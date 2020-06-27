@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
+
+
 body,html{
     overflow-x: hidden;
     height: 100%;
@@ -135,7 +141,6 @@ section .section-title {
 }
 
 /* form */
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 #contatti{
     letter-spacing: 2px;
     font-family: 'Bree Serif', serif;
@@ -241,17 +246,24 @@ section .section-title {
 }
 
 /* profile card */
-    @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chelsea+Market&display=swap');
+   
 
 #tutloc{
     font-family: 'Bungee', cursive;
     font-family: 'Chelsea Market', cursive;     
-}    
+} 
+
+#tutloc select{
+    border: 2px solid #354980;
+  }
+
 #protab{
     font-family: 'Chelsea Market', cursive;
     font-size: 40px;
     font-weight: 400;
+}
+#carfont{
+    font-family: 'Crete Round', serif;
 }
 .pro-col{
     background: rgb(4,60,154);
