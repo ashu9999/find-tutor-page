@@ -146,14 +146,14 @@ section .section-title {
     text-decoration: none;
   }
   #contatti input{
-    border: 2px solid #ffca7a;
+    border: 2px solid #354980;
   }
 
   #contatti select{
-    border: 2px solid #ffca7a;
+    border: 2px solid #354980;
   }
   #contatti .dropdown-menu {         
-    max-height: 160px;
+    max-height: 200px;
     padding-left: 5px;
     overflow-y: auto;
   }
@@ -241,10 +241,21 @@ section .section-title {
 }
 
 /* profile card */
+    @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chelsea+Market&display=swap');
 
+#tutloc{
+    font-family: 'Bungee', cursive;
+    font-family: 'Chelsea Market', cursive;     
+}    
+#protab{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
 .pro-col{
-    background: rgb(238,254,147);
-background: linear-gradient(183deg, rgba(238,254,147,1) 0%, rgba(238,218,66,0.0380809655350246) 99%);
+    background: rgb(4,60,154);
+background: linear-gradient(180deg, rgba(4,60,154,0.029653999242889695) 0%, rgba(28,223,221,0.0465079318271594) 100%);
 }
 
 #star {
@@ -255,18 +266,6 @@ background: linear-gradient(183deg, rgba(238,254,147,1) 0%, rgba(238,218,66,0.03
 
 .more {
     opacity: 0.5 !important;
-}
-
-
-.vl {
-    margin: 8px ;
-    width: 2px;
-    border-right: 1px solid #aaaaaa;
-    height: 25px
-}
-
-#plus {
-    opacity: 0.8'
 }
 
 .card {

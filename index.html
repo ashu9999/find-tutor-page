@@ -174,7 +174,7 @@
     <!-- Page Content -->
     <div class="container" id="contatti">
             <div class="row">
-                <div class="col-12 text-center">  
+                <div class="col-md-8 text-center">  
                     <div class="">
                         <h4 class="text-uppercase mt-3 font-weight-bold text-left">SELECT YOUR LOCATION</h4>
                         <div class="text-left">
@@ -239,7 +239,7 @@
                       </div>
                       
                       <div class="">
-                        <div class="">
+                        <div class="col-md-8">
                             <h4 class="text-uppercase mt-3 font-weight-bold text-left">Class And Board</h4>
                               <div class="text-left mb-3">
                                 <label for="inpuFname">Class</label>
@@ -302,7 +302,7 @@
                             </div>
                             
                             <div class="col text-left">
-                                <h4 class="text-uppercase mt-3 font-weight-bold ">Tutor Preference</h4>    
+                                <h4 class="text-uppercase mt-3 font-weight-bold "> Prefer Tutor</h4>    
                                 <div class="">
                                     <label class="customcheck">Male
                                     <input type="checkbox">
@@ -356,12 +356,12 @@
                             
             </div>
         <!--/row-->
-        <b><hr class="my-8"></b>
+        <b><hr class="my-8 mt-5"></b>
     </div>
     
     <!-- tutors by locality filter -->
-    <div class="container">
-        <h2 class="text-center text-bold">Tutors and Institutes By Locality</h2>
+    <div class="container pt-5" id="tutloc">
+        <h2 class="text-uppercase text-center text-bold">Tutors and Institutes By Locality</h2>
         <div class="row">
             <div class="row mx-auto" >
               <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
@@ -450,206 +450,231 @@
     </div>
     
     <!-- profile of teachers -->
-    <div class="container mb-5" id="protab">
-        <div class="row justify-content-between">
-            <div class="col-md-5 card mt-5 border-5 pt-2 pb-0 px-3 pro-col" >
+    <div class="" id="protab">
+        <div class="">
+            <!-- tutor 1 profile -->
+            <div class="card mt-5 border-5 pro-col mx-2 shadow-lg p-3 mb-5 bg-white rounded" >
                 <div class="card-body ">
                     <div class="row">
-                        <div class="col-md-12 col-sm-12 ">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150" height="150"> </li>
-                                </ul>
+                        <div class="col-md-2">
                             <h4 class="card-title "><b>Minhaj Shaikh</b></h4>
+                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150px" height="150px">     
                         </div>
-                        <div class="col">
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    Minhaj Tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee.
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>City : </b>MUMBAI
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Location : </b>Matunga Labour Camp
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Subject: </b>English, Hindi, Marathi, Maths, Science
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Years of Experience: </b>8
-                                </p>
-                            </h6>
+                        <div class="col-md-8 pt-4">
+                            <h5 class="card-subtitle mb-2 pb-3">Minhaj tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee. </h5>
+            
+                            <div class="row mb-2">
+                                <div class="col-md-6 col-sm-auto">
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>City : </b>MUMBAI
+                                        </p>
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-auto">    
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Location : </b>Matunga Labour Camp
+                                        </p>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-md-6 col-sm-auto">
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Subject: </b>English, Hindi, Marathi, Maths, Science
+                                        </p>
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-auto">    
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Years of Experience: </b>8
+                                        </p>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 pt-3">
+                            <div class=""> 
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <small>View Profile</small></a> 
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <small>Book free class</small></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-footer bg-white px-0 ">
-                    <div class="row">
-                        <div class=" col-md-auto"> 
-                            <a href="#" class="btn btn-dark text-dark" style="background-color: #DFCA1C;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
-                            <small>View Profile</small></a> <span class="vl ml-3"></span> 
-                            <a href="#" class="btn btn-dark text-dark" style="background-color: #DFCA1C;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
-                            <small>Book free class</small></a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
-
-            <div class="col-md-5 card mt-5 border-5 pt-2 pb-0 px-3 pro-col">
+            <!-- tutor 2 profile -->
+            <div class="card mt-5 border-5 pro-col mx-2 shadow-lg p-3 mb-5 bg-white rounded" >
                 <div class="card-body ">
                     <div class="row">
-                        <div class="col-12 ">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150" height="150"> </li>
-                                </ul>
+                        <div class="col-md-2">
                             <h4 class="card-title "><b>Minhaj Shaikh</b></h4>
+                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150px" height="150px">     
                         </div>
-                        <div class="col">
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    Minhaj Tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee.
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>City : </b>MUMBAI
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Location : </b>Matunga Labour Camp
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Subject: </b>English, Hindi, Marathi, Maths, Science
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Years of Experience: </b>8
-                                </p>
-                            </h6>
+                        <div class="col-md-8 pt-4">
+                            <h5 class="card-subtitle mb-2 pb-3">Minhaj tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee. </h5>
+
+                            <div class="row mb-2">
+                                <div class="col-md-6 col-sm-auto">
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>City : </b>MUMBAI
+                                        </p>
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-auto">    
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Location : </b>Matunga Labour Camp
+                                        </p>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-md-6 col-sm-auto">
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Subject: </b>English, Hindi, Marathi, Maths, Science
+                                        </p>
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-auto">    
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Years of Experience: </b>8
+                                        </p>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 pt-3">
+                            <div class=""> 
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <small>View Profile</small></a> 
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <small>Book free class</small></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-footer bg-white px-0 ">
-                    <div class="row">
-                        <div class=" col-md-auto "> 
-                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
-                            <small>View Profile</small></a> <span class="vl ml-3"></span> 
-                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
-                            <small>Book free class</small></a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
-
-            <div class="col-md-5 card mt-5 border-5 pt-2 pb-0 px-3 pro-col">
+            <!-- tutor 3 profile -->
+            <div class="card mt-5 border-5 pro-col mx-2 shadow-lg p-3 mb-5 bg-white rounded" >
                 <div class="card-body ">
                     <div class="row">
-                        <div class="col-12 ">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150" height="150"> </li>
-                                </ul>
+                        <div class="col-md-2">
                             <h4 class="card-title "><b>Minhaj Shaikh</b></h4>
+                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150px" height="150px">     
                         </div>
-                        <div class="col">
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    Minhaj Tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee.
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>City : </b>MUMBAI
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Location : </b>Matunga Labour Camp
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Subject: </b>English, Hindi, Marathi, Maths, Science
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Years of Experience: </b>8
-                                </p>
-                            </h6>
+                        <div class="col-md-8 pt-4">
+                            <h5 class="card-subtitle mb-2 pb-3">Minhaj tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee. </h5>
+            
+                            <div class="row mb-2">
+                                <div class="col-md-6 col-sm-auto">
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>City : </b>MUMBAI
+                                        </p>
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-auto">    
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Location : </b>Matunga Labour Camp
+                                        </p>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-md-6 col-sm-auto">
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Subject: </b>English, Hindi, Marathi, Maths, Science
+                                        </p>
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-auto">    
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Years of Experience: </b>8
+                                        </p>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 pt-3">
+                            <div class=""> 
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <small>View Profile</small></a> 
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <small>Book free class</small></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-footer bg-white px-0 ">
-                    <div class="row">
-                        <div class=" col-md-auto "> 
-                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
-                            <small>View Profile</small></a> <span class="vl ml-3"></span> 
-                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
-                            <small>Book free class</small></a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
-
-            <div class="col-md-5 card mt-5 border-5 pt-2 pb-0 px-3 pro-col">
+            <!-- tutor 4 profile -->
+            <div class="card mt-5 border-5 pro-col mx-2 shadow-lg p-3 mb-5 bg-white rounded" >
                 <div class="card-body ">
                     <div class="row">
-                        <div class="col-12 ">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150" height="150"> </li>
-                                </ul>
+                        <div class="col-md-2">
                             <h4 class="card-title "><b>Minhaj Shaikh</b></h4>
+                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1573035860/Pra/Hadie-profile-pic-circle-1.png" alt="DP" class=" rounded-circle img-fluid " width="150px" height="150px">     
                         </div>
-                        <div class="col">
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    Minhaj Tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee.
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>City : </b>MUMBAI
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Location : </b>Matunga Labour Camp
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Subject: </b>English, Hindi, Marathi, Maths, Science
-                                </p>
-                            </h6>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
-                                    <b>Years of Experience: </b>8
-                                </p>
-                            </h6>
+                        <div class="col-md-8 pt-4">
+                            <h5 class="card-subtitle mb-2 pb-3">Minhaj tutorial is a private tuition centre in Matunga Mumbai which provide quality tutoring at an affordable fee. </h5>
+            
+                            <div class="row mb-2">
+                                <div class="col-md-6 col-sm-auto">
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>City : </b>MUMBAI
+                                        </p>
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-auto">    
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Location : </b>Matunga Labour Camp
+                                        </p>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-md-6 col-sm-auto">
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Subject: </b>English, Hindi, Marathi, Maths, Science
+                                        </p>
+                                    </h5>
+                                </div>
+                                <div class="col-md-6 col-sm-auto">    
+                                    <h5 class="mb-2 text-muted">
+                                        <p class="card-text text-muted small "> <img src="https://img.icons8.com/color/26/000000/christmas-star.png" class="mr-1 " width="19" height="19" id="star"> 
+                                        <b>Years of Experience: </b>8
+                                        </p>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 pt-3">
+                            <div class=""> 
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <small>View Profile</small></a> 
+                                <a href="#" class="d-flex btn btn-dark text-dark py-3 my-2" style="background-color: #ffce5da2;"><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
+                                <small>Book free class</small></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-footer bg-white px-0 ">
-                    <div class="row">
-                        <div class=" col-md-auto "> 
-                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
-                            <small>View Profile</small></a> <span class="vl ml-3"></span> 
-                            <a href="#" class="btn btn-outlined btn-outline-dark text-dark "><img src="https://img.icons8.com/metro/26/000000/more.png" width="20" height="20" class="mr-2 more">
-                            <small>Book free class</small></a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>  
     </div>
