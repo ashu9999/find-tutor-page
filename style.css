@@ -227,7 +227,7 @@ section .section-title {
 
 /* On mouse-over, add a grey background color */
 .customcheck:hover input ~ .checkmark {
-    background-color: #DFCA1C);
+    background-color: #DFCA1C;
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -262,11 +262,12 @@ section .section-title {
 }
 
 /* profile card */
-   
-
-#tutloc{
-} 
-
+#hed{
+    color: #212529;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
 #tutloc select{
     border: 2px solid #354980;
   }
@@ -276,9 +277,7 @@ section .section-title {
     font-size: 40px;
     font-weight: 400;
 }
-#carfont{
-    
-}
+
 .pro-col{
     background: rgb(4,60,154);
 background: linear-gradient(180deg, rgba(4,60,154,0.029653999242889695) 0%, rgba(28,223,221,0.0465079318271594) 100%);
