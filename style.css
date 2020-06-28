@@ -153,7 +153,6 @@ section .section-title {
 
 /* form */
 #contatti{
-    letter-spacing: 2px;
     margin-top: 40px;
     }
   #contatti a{
@@ -207,9 +206,9 @@ section .section-title {
     display: block;
     position: relative;
     padding-left: 35px;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 14px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
