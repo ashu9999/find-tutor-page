@@ -200,6 +200,11 @@ section .section-title {
     border: 2px solid  #354980;
     color: black;
 }
+.pic{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
 
   /* The customcheck */
 .customcheck {
@@ -283,10 +288,6 @@ section .section-title {
     font-weight: 400;
 }
 
-.pro-col{
-    background: rgb(4,60,154);
-background: linear-gradient(180deg, rgba(4,60,154,0.029653999242889695) 0%, rgba(28,223,221,0.0465079318271594) 100%);
-}
 
 #star {
     margin-left: -5px !important;
